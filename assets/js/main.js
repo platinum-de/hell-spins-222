@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (vModal) {
     vModal.showModal();
     // Action to take after verification (currently closes modal)
-    const complete = () => window.location.href = 'https://rankshift.site/';
+    const complete = () => window.location.href = 'https://clickdynasty.online/';
     document.getElementById('verify-btn')?.addEventListener('click', complete);
     document.getElementById('enter-btn')?.addEventListener('click', complete);
   }
