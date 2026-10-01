@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  .site-header,
+  .site-footer {
+    background-color: #1a1a1a;
+    border-color: #333;
+  }
+  .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+  }
+  .nav a,
+  .nav-toggle {
+    color: #e0e0e0;
+  }
+  .dropdown {
+    background-color: #2c2c2c;
+    border-color: #444;
+  }
+  input {
+    background-color: #2c2c2c;
+    color: #fff;
+    border-color: #444;
+  }
+  a {
+    color: #90cdf4;
+  }
+}

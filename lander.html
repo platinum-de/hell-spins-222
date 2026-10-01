@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Go Green Germany — Welcome</title>
+<meta name="description" content="Welcome to Germany. Just one more step — please verify to continue." />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/dark-mode.css" />
+<script defer src="assets/js/main.js"></script>
+<style>
+body {
+  background: url('assets/img/image.png') no-repeat center center fixed;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  body {
+    background-image: url('assets/img/image copy.png');
+  }
+}
+#verify-btn {
+  background-color: #10b981;
+  border-color: #10b981;
+  color: #fff;
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.svg" alt="Go Green Germany logo" class="logo" style="width:auto;height:28px;" />
+      <span class="brand-name">Go Green Germany</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" role="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/sustainable-living.html">Sustainable Living</a></li>
+        <li><a href="pages/eco-travel.html">Eco Travel</a></li>
+        <li><a href="pages/renewables.html">Culture & History</a></li>
+        <li class="more">
+          <button class="more-btn" aria-haspopup="true" aria-expanded="false">More</button>
+          <ul class="dropdown">
+            <li><a href="pages/itineraries.html">Itineraries</a></li>
+            <li><a href="pages/work-study.html">Work & Study</a></li>
+            <li><a href="pages/language-learning.html">Language Learning</a></li>
+            <li><a href="pages/castles.html">German Castles</a></li>
+            <li><a href="pages/family-fun.html">Family Fun</a></li>
+            <li><a href="pages/food-drink.html">Food & Drink</a></li>
+            <li><a href="pages/transport.html">Transportation Guide</a></li>
+            <li><a href="pages/recycling.html">Recycling Guide</a></li>
+            <li><a href="pages/green-cities.html">Green Cities</a></li>
+            <li><a href="pages/conservation.html">Wildlife Conservation</a></li>
+            <li><a href="pages/events.html">Events</a></li>
+            <li><a href="pages/grants.html">Grants & Programs</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/privacy.html">Privacy</a></li>
+            <li><a href="pages/terms.html">Terms</a></li>
+            <li><a href="pages/disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container" style="position:absolute;bottom:20px;left:0;right:0;text-align:center;color:white;text-shadow:0 1px 3px rgba(0,0,0,0.8);pointer-events:none;">
+    <p>Photo: Bavarian Alps in Summer</p>
+  </div>
+</main>
+
+<dialog id="verification-modal" class="modal-dialog">
+  <div class="checkmark-icon" style="margin-bottom: 20px;">
+    <svg viewBox="0 0 24 24" width="80" height="80" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+  </div>
+  <h2>Welcome to HS</h2>
+  <p>Click below to explore our best for 2026.</p>
+  <div style="display:flex; gap:10px; justify-content:center; margin-top:20px;">
+    <button id="verify-btn" class="btn">Verify</button>
+    <button id="enter-btn" class="btn secondary">Enter</button>
+  </div>
+</dialog>
+
+</body>
+</html>
